@@ -1,153 +1,18 @@
----
-layout: default
-title: Flashcards de Direito Empresarial
----
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards de Direito Empresarial</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
+</head>
+<body>
+    <h1>Flashcards de Direito Empresarial</h1>
 
-<h1>Flashcards de Direito Empresarial</h1>
+    <!-- Contêiner onde os flashcards serão exibidos -->
+    <div id="flashcards-container"></div>
 
-<div class="flashcard-container">
-  <div class="flashcard">
-    <div class="flashcard-inner">
-      <div class="front">
-        O que é uma Sociedade Limitada?
-      </div>
-      <div class="back">
-        É um tipo de empresa onde a responsabilidade dos sócios é limitada ao valor de suas cotas.
-      </div>
-    </div>
-  </div>
-
-  <div class="flashcard">
-    <div class="flashcard-inner">
-      <div class="front">
-        O que é um Contrato Social?
-      </div>
-      <div class="back">
-        É o documento que formaliza a constituição de uma empresa e define suas regras internas.
-      </div>
-    </div>
-  </div>
-
-  <div class="flashcard">
-    <div class="flashcard-inner">
-      <div class="front">
-        O que é Responsabilidade Solidária?
-      </div>
-      <div class="back">
-        É quando todos os sócios ou participantes de uma empresa respondem de forma conjunta por uma dívida.
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Adicionando o CSS diretamente no index.md -->
-<style>
-  .flashcard-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .flashcard {
-    width: 200px;
-    height: 300px;
-    margin: 15px;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    position: relative;
-  }
-  .flashcard:hover {
-    transform: scale(1.05);
-  }
-  .flashcard .front, .flashcard .back {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    position: absolute;
-    backface-visibility: hidden;
-  }
-  .flashcard .front {
-    background-color: #3b8d99;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-  }
-  .flashcard .back {
-    background-color: #f1f1f1;
-    color: #333;
-    font-size: 18px;
-    text-align: center;
-    transform: rotateY(180deg);
-  }
-  .flashcard-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transform: rotateY(0deg);
-    transition: transform 0.6s;
-  }
-  .flashcard.flipped .flashcard-inner {
-    transform: rotateY(180deg);
-  }
-</style>
-
-<!-- Adicionando o JavaScript diretamente no index.md -->
-<script>
-  const flashcards = document.querySelectorAll('.flashcard');
-
-  flashcards.forEach(card => {
-    card.addEventListener('click', () => {
-      card.classList.toggle('flipped');
-    });
-  });
-
-  // Service Worker
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js')
-      .then(registration => {
-        console.log('Service Worker registrado com sucesso:', registration);
-      })
-      .catch(error => {
-        console.log('Erro ao registrar o Service Worker:', error);
-      });
-  }
-</script>
-
-<!-- Manifesto PWA -->
-<script>
-  const manifest = {
-    "name": "Flashcards de Direito Empresarial",
-    "short_name": "Flashcards",
-    "description": "Flashcards interativos sobre Direito Empresarial",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#3b8d99",
-    "icons": [
-      {
-        "src": "images/icon-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "images/icon-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  };
-
-  // Criando e inserindo o link do Manifesto dinamicamente
-  const link = document.createElement('link');
-  link.rel = 'manifest';
-  link.href = 'data:application/json,' + encodeURIComponent(JSON.stringify(manifest));
-  document.head.appendChild(link);
-</script>
-
+    <!-- Adicionando os scripts -->
+    <script src="flashcards.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
