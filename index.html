@@ -1,33 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Flashcards interativos de Direito Empresarial">
-    <title>Flashcards de Direito Empresarial</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="manifest.json">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashcards de Direito Empresarial</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
 </head>
 <body>
-    <h1 class="titulo">Flashcards de Direito Empresarial</h1>
-    <div id="flashcards-container" class="flashcards-container">
-        <!-- Flashcards serão carregados aqui via JavaScript -->
-    </div>
-    <script src="flashcards.js"></script>
-    <script src="service-worker.js"></script>
+  <h1>Flashcards de Direito Empresarial</h1>
+  <div class="flashcard-container" id="flashcard-container"></div>
+
+  <script src="flashcards.js"></script>
 </body>
 </html>
-<script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/service-worker.js')
-                .then(registration => {
-                    console.log('ServiceWorker registrado com sucesso:', registration.scope);
-                })
-                .catch(error => {
-                    console.log('Erro ao registrar o ServiceWorker:', error);
-                });
-        });
-    }
-</script>
-
