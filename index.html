@@ -1,34 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#4CAF50">
-    <title>Flashcards de Direito Empresarial</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
-    <!-- Manifeste o aplicativo para PWA -->
-    <link rel="manifest" href="manifest.json">
+    <title>Flashcards Interativos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Flashcards de Direito Empresarial</h1>
+    <div class="container">
+        <h1>Flashcards Interativos</h1>
+        <div id="flashcards-container" class="flashcards-container">
+            <!-- Flashcards serão inseridos aqui -->
+        </div>
+    </div>
 
-    <!-- Contêiner onde os flashcards serão exibidos -->
-    <div id="flashcards-container"></div>
-
-    <!-- Adicionando os scripts -->
-    <script src="flashcards.js"></script> <!-- Link para o JavaScript -->
-
-    <!-- Registro do Service Worker para PWA -->
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service_worker.js')
-                .then(function(registration) {
-                    console.log('Service Worker registrado com sucesso:', registration);
-                })
-                .catch(function(error) {
-                    console.log('Erro ao registrar o Service Worker:', error);
-                });
-        }
-    </script>
+    <script src="flashcards.js"></script>
 </body>
 </html>
+
