@@ -1,0 +1,27 @@
+[
+    {
+        "question": "O que é a personalidade jurídica?",
+        "answer": "A personalidade jurídica é a capacidade da pessoa de ser titular de direitos e deveres na ordem civil."
+    },
+    {
+        "question": "Quando inicia a personalidade da pessoa física e da pessoa jurídica?",
+        "answer": "A personalidade da pessoa física começa com o nascimento com vida, e da pessoa jurídica com o registro no órgão competente."
+    },
+    {
+        "question": "O nascido tem direitos? Se sim, cite um tipo de direito que ele possui.",
+        "answer": "Sim, o nascido possui direitos, como o direito à herança, desde que nasça com vida."
+    },
+    {
+        "question": "Quando é extinta a personalidade jurídica da pessoa física?",
+        "answer": "A personalidade jurídica da pessoa física é extinta com a morte."
+    },
+    {
+        "question": "O que é a desconsideração da personalidade jurídica?",
+        "answer": "É o processo pelo qual a personalidade jurídica de uma empresa é ignorada, e os bens dos sócios ou administradores podem ser alcançados para a satisfação de dívidas."
+    },
+    {
+        "question": "O que é a desconsideração da personalidade jurídica direta e inversa?",
+        "answer": "A desconsideração direta ocorre quando os bens dos sócios são atingidos. A inversa ocorre quando a empresa é usada para atingir o patrimônio pessoal de alguém."
+    }
+    // Adicione mais perguntas conforme necessário
+]
