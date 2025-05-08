@@ -1,0 +1,410 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards PWA - Catherine</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body { font-family: sans-serif; background: #f4f4f4; padding: 20px; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; }
+        .card { width: 280px; height: 160px; margin: 10px; perspective: 1000px; cursor: pointer; }
+        .card-inner { width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; position: relative; }
+        .card.flipped .card-inner { transform: rotateY(180deg); }
+        .card-front, .card-back {
+            position: absolute; width: 100%; height: 100%;
+            backface-visibility: hidden; border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            padding: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;
+        }
+        .card-front { background: #007acc; color: #fff; }
+        .card-back { background: #fff; color: #000; transform: rotateY(180deg); }
+    </style>
+</head>
+<body>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é SWOT?</div>
+            <div class="card-back">Ferramenta que identifica forças, fraquezas, oportunidades e ameaças.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quais elementos da SWOT são internos?</div>
+            <div class="card-back">Forças e fraquezas.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quais elementos da SWOT são externos?</div>
+            <div class="card-back">Oportunidades e ameaças.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Exemplo de força em uma empresa?</div>
+            <div class="card-back">Marca forte, tecnologia própria, equipe qualificada.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Exemplo de fraqueza interna?</div>
+            <div class="card-back">Falta de capital, má gestão, processos ineficientes.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Exemplo de oportunidade externa?</div>
+            <div class="card-back">Expansão de mercado, incentivos fiscais.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Exemplo de ameaça externa?</div>
+            <div class="card-back">Concorrência, crise econômica, novas leis.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é PESTEL?</div>
+            <div class="card-back">Análise do ambiente externo: Político, Econômico, Sociocultural, Tecnológico, Ecológico e Legal.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que analisa o fator Político da PESTEL?</div>
+            <div class="card-back">Estabilidade política, políticas públicas, impostos, subsídios.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que analisa o fator Econômico da PESTEL?</div>
+            <div class="card-back">Inflação, juros, PIB, desemprego, variação cambial.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que analisa o fator Sociocultural da PESTEL?</div>
+            <div class="card-back">Cultura, hábitos de consumo, demografia, valores sociais.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que analisa o fator Tecnológico da PESTEL?</div>
+            <div class="card-back">Inovações, automação, digitalização, P&D.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que analisa o fator Ecológico da PESTEL?</div>
+            <div class="card-back">Sustentabilidade, mudanças climáticas, normas ambientais.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que analisa o fator Legal da PESTEL?</div>
+            <div class="card-back">Leis trabalhistas, fiscais, LGPD, regulamentações.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Diferença entre SWOT e PESTEL?</div>
+            <div class="card-back">SWOT analisa ambiente interno e externo, PESTEL só o macroambiente externo.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Para que serve a análise SWOT?</div>
+            <div class="card-back">Diagnosticar a situação estratégica da organização.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Para que serve a análise PESTEL?</div>
+            <div class="card-back">Entender fatores externos que podem impactar a organização.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">A SWOT é usada em qual tipo de planejamento?</div>
+            <div class="card-back">Planejamento estratégico.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">A PESTEL pode prever oportunidades futuras?</div>
+            <div class="card-back">Sim, por meio da análise de tendências externas.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Ameaça é sempre um fator externo?</div>
+            <div class="card-back">Sim, por definição.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Pode-se controlar fatores da análise PESTEL?</div>
+            <div class="card-back">Não, são externos e incontroláveis diretamente.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Fraquezas podem ser transformadas em forças?</div>
+            <div class="card-back">Sim, com planejamento e ações corretivas.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Tecnologia é força ou fator PESTEL?</div>
+            <div class="card-back">Pode ser força (interna) ou fator tecnológico (externo), depende do contexto.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Mudança na legislação é SWOT ou PESTEL?</div>
+            <div class="card-back">PESTEL – fator legal (externo).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">SWOT pode ser usada por pequenas empresas?</div>
+            <div class="card-back">Sim, é aplicável a qualquer porte de organização.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é a personalidade jurídica?</div>
+            <div class="card-back">É a aptidão genérica para adquirir direitos e contrair obrigações na ordem civil.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quando inicia a personalidade da pessoa física e da pessoa jurídica?</div>
+            <div class="card-back">Pessoa física: com o nascimento com vida (Art. 2º CC). Pessoa jurídica: com o registro dos atos constitutivos (Art. 45 CC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O nascido tem direitos? Cite um exemplo.</div>
+            <div class="card-back">Sim. O nascituro tem direitos condicionados, como o direito à herança (Art. 2º, parágrafo único, CC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quando é extinta a personalidade da pessoa física?</div>
+            <div class="card-back">Com a morte ou morte presumida declarada judicialmente (Art. 6º CC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é a desconsideração da personalidade jurídica?</div>
+            <div class="card-back">É o afastamento da separação entre pessoa jurídica e seus sócios para alcançar bens destes em casos de abuso.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é a desconsideração da personalidade jurídica direta e inversa?</div>
+            <div class="card-back">Direta: atinge o sócio. Inversa: atinge a empresa por atos do sócio.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é a teoria maior na desconsideração da personalidade jurídica?</div>
+            <div class="card-back">Exige comprovação de desvio de finalidade ou confusão patrimonial.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quais os requisitos da teoria maior? Cite a previsão legal.</div>
+            <div class="card-back">Abuso da personalidade, desvio de finalidade ou confusão patrimonial (Art. 50 do Código Civil).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Mudar o objeto da sociedade é desvio de personalidade?</div>
+            <div class="card-back">Sim, se isso configurar desvio de finalidade conforme Art. 50 do CC.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">A desconsideração da personalidade jurídica está na teoria do consumo?</div>
+            <div class="card-back">Sim. No CDC, aplica-se a teoria menor da desconsideração (Art. 28 CDC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Na teoria menor, qual o requisito para desconsideração?</div>
+            <div class="card-back">Basta a insolvência do fornecedor (Art. 28, §5º do CDC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Na Lei de Crimes Ambientais, aplica-se teoria menor ou maior?</div>
+            <div class="card-back">Teoria menor, conforme interpretação da Lei 9.605/98, Art. 4º.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">A desconsideração ocorre judicial ou extrajudicialmente?</div>
+            <div class="card-back">Judicialmente, conforme Art. 50 CC e Art. 133 do CPC.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quem pode requerer a desconsideração da personalidade jurídica?</div>
+            <div class="card-back">A parte interessada no processo (Art. 133 do CPC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quem pode ser o alvo da desconsideração?</div>
+            <div class="card-back">Os sócios ou administradores (Art. 50 CC e Art. 133 §2º CPC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Cite dois exemplos de fonte do direito empresarial.</div>
+            <div class="card-back">Lei e jurisprudência.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quais são os ramos do direito?</div>
+            <div class="card-back">Direito público, privado e social.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é o princípio da liberdade de associação?</div>
+            <div class="card-back">É o direito de criar e participar de associações, desde que lícitas.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é o princípio da função social da empresa?</div>
+            <div class="card-back">A empresa deve atender ao bem comum, gerar empregos e respeitar direitos.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quem é um empresário? Cite previsão legal.</div>
+            <div class="card-back">Pessoa que exerce profissionalmente atividade econômica organizada (Art. 966 CC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Explique o conceito de sociedades empresariais.</div>
+            <div class="card-back">São pessoas jurídicas constituídas por dois ou mais sócios para exercer atividade econômica com finalidade lucrativa.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Cite um elemento que compõe a empresa.</div>
+            <div class="card-back">Atividade econômica organizada.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quem é o preposto? Cite uma função dele.</div>
+            <div class="card-back">Representante do empresário, podendo administrar ou executar tarefas em seu nome (Art. 1179 CC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é direito?</div>
+            <div class="card-back">Conjunto de normas que regulam a vida em sociedade.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">Quem são os incapazes de exercer pessoalmente os atos da vida civil?</div>
+            <div class="card-back">Menores de 16 anos, ébrios habituais, pródigos, entre outros (Art. 3º e 4º CC).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é o princípio da liberdade de iniciativa?</div>
+            <div class="card-back">Direito de exercer qualquer atividade econômica lícita, respeitando a ordem pública.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é o princípio da liberdade de concorrência?</div>
+            <div class="card-back">Garantia constitucional de competir livremente no mercado (Art. 170 CF).</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é o princípio da inerência do risco?</div>
+            <div class="card-back">Todo empresário assume os riscos decorrentes da atividade econômica.</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+            <div class="card-front">O que é o estabelecimento empresarial? Cite previsão legal.</div>
+            <div class="card-back">Conjunto de bens organizados para o exercício da empresa (Art. 1142 CC).</div>
+        </div>
+    </div>
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
