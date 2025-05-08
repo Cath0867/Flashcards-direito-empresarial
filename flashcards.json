@@ -1,154 +1,21 @@
 [
-  {
-    "pergunta": "O que é a personalidade jurídica?",
-    "resposta": "A personalidade jurídica é a capacidade de ser sujeito de direitos e deveres."
-  },
-  {
-    "pergunta": "Quando é iniciada a personalidade da pessoa física e jurídica?",
-    "resposta": "A pessoa física inicia sua personalidade com o nascimento, e a jurídica com o registro do contrato social."
-  },
-  {
-    "pergunta": "O nascido tem direitos?",
-    "resposta": "Sim, o nascido tem direitos, como o direito à vida e à saúde."
-  },
-  {
-    "pergunta": "Quando é extinta a personalidade jurídica da pessoa física?",
-    "resposta": "A personalidade jurídica da pessoa física é extinta com a morte."
-  },
-  {
-    "pergunta": "O que é a desconsideração da personalidade jurídica?",
-    "resposta": "É quando se ignora a pessoa jurídica para responsabilizar diretamente os sócios ou administradores por dívidas ou atos ilícitos."
-  },
-  {
-    "pergunta": "O que é a desconsideração da personalidade jurídica direta e inversa?",
-    "resposta": "Direta é quando se responsabiliza diretamente os sócios ou administradores; inversa é quando a pessoa jurídica é responsável pelas dívidas dos sócios."
-  },
-  {
-    "pergunta": "O que é a teoria maior na desconsideração da personalidade jurídica?",
-    "resposta": "É a teoria que permite a desconsideração em qualquer caso de abuso da personalidade jurídica."
-  },
-  {
-    "pergunta": "Quais são os requisitos para a desconsideração da personalidade jurídica?",
-    "resposta": "Os requisitos são a comprovação de abuso da personalidade, fraude ou confusão patrimonial."
-  },
-  {
-    "pergunta": "Mudar o objeto da sociedade é considerado desvio de personalidade?",
-    "resposta": "Sim, quando a mudança for contrária ao interesse social ou ocorrer para fraudar direitos de terceiros."
-  },
-  {
-    "pergunta": "A desconsideração da personalidade jurídica também está dentro da teoria de consumo?",
-    "resposta": "Sim, na teoria de consumo, a desconsideração visa proteger o consumidor de fraudes."
-  },
-  {
-    "pergunta": "Estamos diante da teoria maior ou menor da desconsideração?",
-    "resposta": "Dependendo do caso, pode ser aplicada a teoria maior ou menor, conforme o abuso de personalidade."
-  },
-  {
-    "pergunta": "Na teoria menor, qual o requisito para ocorrer desconsideração da personalidade jurídica?",
-    "resposta": "Na teoria menor, o requisito é a demonstração de que o uso da personalidade jurídica foi para fins ilícitos ou fraudulentos."
-  },
-  {
-    "pergunta": "Cite previsão legal sobre a desconsideração da personalidade jurídica.",
-    "resposta": "A desconsideração da personalidade jurídica está prevista no Código Civil, artigos 50 e 149."
-  },
-  {
-    "pergunta": "Quais são os ramos do direito?",
-    "resposta": "Os ramos do direito são: direito civil, penal, constitucional, administrativo, empresarial, etc."
-  },
-  {
-    "pergunta": "O que é o princípio de liberdade de associação?",
-    "resposta": "É o direito das pessoas se associarem para fins lícitos, sem interferência do Estado."
-  },
-  {
-    "pergunta": "O que é o princípio da função social da empresa?",
-    "resposta": "É o princípio que diz que a empresa deve cumprir um papel na sociedade, respeitando o bem-estar social e ambiental."
-  },
-  {
-    "pergunta": "Quem é um empresário?",
-    "resposta": "É a pessoa que exerce profissionalmente atividade econômica organizada para a produção ou circulação de bens ou serviços."
-  },
-  {
-    "pergunta": "Explique o conceito de sociedades empresariais.",
-    "resposta": "São associações de pessoas com a finalidade de explorar atividade econômica organizada com o objetivo de lucro."
-  },
-  {
-    "pergunta": "Cite um elemento que compõe a empresa.",
-    "resposta": "Um elemento da empresa pode ser o capital social, que é o valor investido pelos sócios para o início das atividades."
-  },
-  {
-    "pergunta": "Quem é o preposto?",
-    "resposta": "É a pessoa designada para representar a empresa em determinadas situações, como em audiências ou negociações."
-  },
-  {
-    "pergunta": "O que é direito?",
-    "resposta": "Direito é o conjunto de normas e regras que regulam a convivência social e a resolução de conflitos."
-  },
-  {
-    "pergunta": "Quem são os incapazes de exercer pessoalmente os atos da vida civil?",
-    "resposta": "São os menores de 16 anos, os que não puderem exprimir a sua vontade por motivos de doença mental, entre outros."
-  },
-  {
-    "pergunta": "O que é o princípio de liberdade de iniciativa?",
-    "resposta": "É o direito de qualquer pessoa poder exercer uma atividade econômica lícita, sem interferência do Estado."
-  },
-  {
-    "pergunta": "O que é o princípio de liberdade de concorrência?",
-    "resposta": "É o direito de competir no mercado de forma justa, sem práticas monopolistas ou antiéticas."
-  },
-  {
-    "pergunta": "O que é o princípio da inerência do risco?",
-    "resposta": "É o princípio que afirma que o empresário assume o risco do negócio, sendo responsável pelos resultados, positivos ou negativos."
-  },
-  {
-    "pergunta": "O que é o estabelecimento empresarial?",
-    "resposta": "É o conjunto de bens organizados pelo empresário para a exploração da atividade econômica."
-  },
-  {
-    "pergunta": "Cite previsão legal sobre o estabelecimento empresarial.",
-    "resposta": "O estabelecimento empresarial está regulamentado no Código Civil, artigo 1.142."
-  },
-  {
-    "pergunta": "O que é a análise SWOT?",
-    "resposta": "A análise SWOT é uma ferramenta de planejamento estratégico que avalia as forças, fraquezas, oportunidades e ameaças de uma empresa."
-  },
-  {
-    "pergunta": "Quais são as oportunidades e ameaças na análise SWOT?",
-    "resposta": "As oportunidades são os fatores externos favoráveis ao crescimento, e as ameaças são os fatores externos que podem prejudicar a empresa."
-  },
-  {
-    "pergunta": "O que são forças e fraquezas na análise SWOT?",
-    "resposta": "Forças são as vantagens internas que a empresa possui, e fraquezas são as limitações internas que ela enfrenta."
-  },
-  {
-    "pergunta": "O que é a análise PESTEL?",
-    "resposta": "A análise PESTEL avalia os fatores externos que influenciam um negócio, divididos em político, econômico, social, tecnológico, ambiental e legal."
-  },
-  {
-    "pergunta": "Como a análise PESTEL ajuda a empresa?",
-    "resposta": "Ela ajuda a identificar tendências e fatores externos que podem impactar o desempenho da empresa, possibilitando melhor planejamento."
-  },
-  {
-    "pergunta": "Quais são os fatores políticos na análise PESTEL?",
-    "resposta": "Fatores políticos incluem as políticas governamentais, legislações e estabilidade política que podem influenciar os negócios."
-  },
-  {
-    "pergunta": "O que é o ambiente econômico na análise PESTEL?",
-    "resposta": "Refere-se à situação econômica do mercado, como inflação, taxa de juros, desemprego, que afeta as decisões empresariais."
-  },
-  {
-    "pergunta": "Quais são os fatores sociais na análise PESTEL?",
-    "resposta": "São aspectos culturais, demográficos e de comportamento da sociedade que influenciam o consumo e as atividades empresariais."
-  },
-  {
-    "pergunta": "Como os fatores tecnológicos impactam as empresas?",
-    "resposta": "Mudanças tecnológicas podem trazer inovação, novos produtos, melhorar a produtividade ou até transformar mercados."
-  },
-  {
-    "pergunta": "O que são fatores ambientais na análise PESTEL?",
-    "resposta": "Fatores ambientais incluem questões relacionadas à sustentabilidade, regulamentações ambientais e mudanças climáticas."
-  },
-  {
-    "pergunta": "O que são fatores legais na análise PESTEL?",
-    "resposta": "Refere-se a leis, regulamentações e normas que impactam diretamente as atividades de uma empresa, como leis trabalhistas e fiscais."
-  }
-]
+{
+    "name": "Flashcards de Direito Empresarial",
+    "short_name": "Flashcards",
+    "description": "Aplicativo de flashcards para Direito Empresarial",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "icons": [
+        {
+            "src": "icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
