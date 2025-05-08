@@ -1,7 +1,7 @@
-/* Estilo global */
+/* Fonte e fundo geral */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fdfdfd;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,74 +11,78 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #4CAF50;
+    background-color: #8ecae6; /* Azul pastel */
     color: white;
-    padding: 10px;
+    padding: 20px;
     width: 100%;
     text-align: center;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
 }
 
 h1 {
     margin: 0;
+    font-size: 28px;
 }
 
-/* Estilo para os flashcards */
+/* Container dos flashcards */
 #flashcards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
-    width: 100%;
+    padding: 30px;
     max-width: 1200px;
+    width: 100%;
 }
 
-/* Estilo individual para cada flashcard */
+/* Flashcards */
 .flashcard {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    height: 250px;
+    background: #caf0f8; /* Azul bem claro */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 260px;
+    height: 240px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     text-align: center;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Estilo para a pergunta e resposta */
-.question {
-    font-weight: bold;
-    font-size: 16px;
-    color: #333;
-}
-
-.answer {
-    font-size: 14px;
-    color: #555;
-    display: none; /* A resposta começa escondida */
-}
-
-/* Efeito de hover para o flashcard */
+/* Efeito ao passar o mouse */
 .flashcard:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
-/* Mostrar resposta ao clicar no flashcard */
+/* Pergunta */
+.question {
+    font-size: 16px;
+    font-weight: bold;
+    color: #023047; /* Azul escuro */
+}
+
+/* Resposta (escondida por padrão) */
+.answer {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #5c1a30; /* Rosa escuro */
+    background-color: #fcd5ce; /* Rosa pastel */
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+}
+
+/* Mostrar resposta ao clicar */
 .flashcard.active .answer {
     display: block;
-    margin-top: 10px;
-    font-style: italic;
-    color: #333;
 }
 
-/* Responsividade */
+/* Responsivo para celular */
 @media (max-width: 768px) {
     .flashcard {
-        width: 200px;
-        height: 200px;
+        width: 90%;
+        height: auto;
     }
 }
