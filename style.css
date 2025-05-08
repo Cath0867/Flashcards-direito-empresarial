@@ -1,43 +1,43 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f4f4f9;
-  margin: 0;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    text-align: center;
 }
 
 h1 {
-  color: #333;
+    color: #4CAF50;
 }
 
 #flashcards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
 .flashcard {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin: 10px;
-  width: 250px;
-  cursor: pointer;
-  transition: transform 0.3s;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
 }
 
 .flashcard:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .question {
-  font-weight: bold;
-  color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .answer {
-  margin-top: 10px;
-  color: #555;
-  display: none;
+    color: #555;
 }
+
