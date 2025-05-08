@@ -1,15 +1,15 @@
 [
     {
         "question": "O que é a personalidade jurídica?",
-        "answer": "A personalidade jurídica é a capacidade da pessoa de ser titular de direitos e deveres na ordem civil."
+        "answer": "É a capacidade de uma pessoa ser sujeito de direitos e obrigações."
     },
     {
-        "question": "Quando inicia a personalidade da pessoa física e da pessoa jurídica?",
-        "answer": "A personalidade da pessoa física começa com o nascimento com vida, e da pessoa jurídica com o registro no órgão competente."
+        "question": "Quando inicia a personalidade da pessoa física?",
+        "answer": "A personalidade da pessoa física inicia com o nascimento com vida."
     },
     {
         "question": "O nascido tem direitos? Se sim, cite um tipo de direito que ele possui.",
-        "answer": "Sim, o nascido possui direitos, como o direito à herança, desde que nasça com vida."
+        "answer": "Sim, o nascido tem direitos, como o direito à vida."
     },
     {
         "question": "Quando é extinta a personalidade jurídica da pessoa física?",
@@ -17,11 +17,115 @@
     },
     {
         "question": "O que é a desconsideração da personalidade jurídica?",
-        "answer": "É o processo pelo qual a personalidade jurídica de uma empresa é ignorada, e os bens dos sócios ou administradores podem ser alcançados para a satisfação de dívidas."
+        "answer": "É um instituto jurídico utilizado para desconsiderar os efeitos de uma pessoa jurídica quando ela é utilizada para fins fraudulentos ou abusivos."
     },
     {
         "question": "O que é a desconsideração da personalidade jurídica direta e inversa?",
-        "answer": "A desconsideração direta ocorre quando os bens dos sócios são atingidos. A inversa ocorre quando a empresa é usada para atingir o patrimônio pessoal de alguém."
+        "answer": "A desconsideração direta ocorre quando se desconsidera a personalidade jurídica da empresa para atingir os bens dos sócios. A desconsideração inversa ocorre quando se desconsidera a personalidade jurídica dos sócios para atingir os bens da empresa."
+    },
+    {
+        "question": "O que é a teoria maior na desconsideração da personalidade jurídica? Quais são seus requisitos? Cite a previsão legal.",
+        "answer": "A teoria maior considera a desconsideração da personalidade jurídica quando há abuso, fraude ou desvio de finalidade. Os requisitos são a violação da função social da empresa ou a confusão patrimonial. A previsão legal está no artigo 50 do Código Civil Brasileiro."
+    },
+    {
+        "question": "Mudar o objeto da sociedade é considerado desvio de personalidade?",
+        "answer": "Sim, mudar o objeto social para fins diferentes dos previstos no contrato social pode ser considerado desvio de personalidade."
+    },
+    {
+        "question": "A desconsideração da personalidade jurídica também está dentro da teoria de consumo. Estamos diante da teoria maior ou menor da desconsideração?",
+        "answer": "Estamos diante da teoria maior da desconsideração da personalidade jurídica, conforme previsão no Código Civil."
+    },
+    {
+        "question": "Na teoria menor, qual o requisito para ocorrer desconsideração da personalidade jurídica? Cite previsão legal.",
+        "answer": "Na teoria menor, o requisito é a utilização da pessoa jurídica para fraudar a lei ou prejudicar terceiros. A previsão legal está no artigo 50 do Código Civil."
+    },
+    {
+        "question": "Na lei de crimes ambientais, a teoria é menor ou maior da desconsideração da personalidade jurídica?",
+        "answer": "Na lei de crimes ambientais, é adotada a teoria menor da desconsideração da personalidade jurídica."
+    },
+    {
+        "question": "A desconsideração da personalidade jurídica ocorre judicialmente ou extrajudicialmente? Cite previsão legal.",
+        "answer": "A desconsideração da personalidade jurídica ocorre judicialmente, conforme previsto no artigo 50 do Código Civil."
+    },
+    {
+        "question": "Quem pode requerer a desconsideração da personalidade jurídica? Cite previsão legal.",
+        "answer": "A desconsideração pode ser requerida pelo Ministério Público, pelo credor ou por qualquer pessoa que tenha interesse, conforme artigo 50 do Código Civil."
+    },
+    {
+        "question": "Quem pode ser o alvo da desconsideração da personalidade jurídica? Cite previsão legal.",
+        "answer": "O alvo pode ser os sócios ou administradores da pessoa jurídica, conforme artigo 50 do Código Civil."
+    },
+    {
+        "question": "Cite dois exemplos de fonte do direito empresarial.",
+        "answer": "A Lei das Sociedades por Ações (Lei 6.404/76) e o Código Civil Brasileiro (Lei 10.406/02)."
+    },
+    {
+        "question": "Quais são os ramos do direito?",
+        "answer": "Os ramos do direito incluem Direito Civil, Direito Penal, Direito Administrativo, Direito Empresarial, entre outros."
+    },
+    {
+        "question": "O que é o princípio de liberdade de associação?",
+        "answer": "É o princípio que garante o direito de constituir e integrar associações livremente."
+    },
+    {
+        "question": "O que é o princípio da função social da empresa?",
+        "answer": "O princípio da função social da empresa diz que a empresa deve cumprir uma função que beneficie a sociedade, além do lucro."
+    },
+    {
+        "question": "Quem é um empresário? Cite previsão legal.",
+        "answer": "É aquele que exerce profissionalmente atividade econômica organizada para a produção ou circulação de bens ou serviços. A previsão legal está no artigo 966 do Código Civil."
+    },
+    {
+        "question": "Explique o conceito de sociedades empresariais.",
+        "answer": "São aquelas entidades que têm como objetivo a exploração de atividade econômica com o fim de obter lucro."
+    },
+    {
+        "question": "Cite um elemento que compõe a empresa.",
+        "answer": "Um dos elementos que compõe a empresa é o capital social."
+    },
+    {
+        "question": "Quem é o preposto? Cite uma função dele.",
+        "answer": "O preposto é o representante da empresa em juízo ou em atividades externas. Sua função é representar a empresa em negociações e processos judiciais."
+    },
+    {
+        "question": "O que é direito?",
+        "answer": "Direito é o conjunto de normas e princípios que regulam a convivência social, garantindo direitos e deveres."
+    },
+    {
+        "question": "Quem são os incapazes de exercer pessoalmente os atos da vida civil?",
+        "answer": "São os menores de 18 anos, os que têm deficiência mental e os que não possuem discernimento."
+    },
+    {
+        "question": "O que é o princípio de liberdade de iniciativa?",
+        "answer": "É o princípio que garante a liberdade de exercer atividades econômicas, sem intervenção do Estado, salvo em situações previstas em lei."
+    },
+    {
+        "question": "O que é o princípio de liberdade de concorrência?",
+        "answer": "É o princípio que assegura o direito das empresas competirem entre si no mercado sem restrições arbitrárias."
+    },
+    {
+        "question": "O que é o princípio da inerência do risco?",
+        "answer": "É o princípio que estabelece que o empresário assume os riscos da atividade econômica que realiza."
+    },
+    {
+        "question": "O que é o estabelecimento empresarial? Cite previsão legal.",
+        "answer": "É o conjunto de bens organizados para o exercício da atividade empresarial. A previsão legal está no artigo 1.142 do Código Civil."
+    },
+    {
+        "question": "O que é a análise SWOT?",
+        "answer": "A análise SWOT é uma ferramenta estratégica usada para avaliar os pontos fortes, fracos, oportunidades e ameaças de uma organização."
+    },
+    {
+        "question": "Quais são os elementos da análise SWOT?",
+        "answer": "Os elementos da análise SWOT são: Forças, Fraquezas, Oportunidades e Ameaças."
+    },
+    {
+        "question": "O que é a análise PESTEL?",
+        "answer": "A análise PESTEL é uma ferramenta usada para analisar os fatores políticos, econômicos, sociais, tecnológicos, ambientais e legais que podem afetar uma organização."
+    },
+    {
+        "question": "Quais são os elementos da análise PESTEL?",
+        "answer": "Os elementos da análise PESTEL são: Político, Econômico, Social, Tecnológico, Ambiental e Legal."
     }
-    // Adicione mais perguntas conforme necessário
 ]
+
