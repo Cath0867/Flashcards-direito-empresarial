@@ -3,14 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcards - Direito Empresarial</title>
+    <title>Flashcards de Direito Empresarial</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="flashcards-container" class="flashcards-container">
-        <!-- Os flashcards serão carregados aqui -->
-    </div>
+    <!-- Cabeçalho com título -->
+    <header>
+        <h1>Flashcards de Direito Empresarial</h1>
+    </header>
 
+    <div id="flashcards-container"></div>
+
+    <!-- Arquivos JavaScript -->
     <script src="flashcards.js"></script>
+    <script>
+        // Carregando os flashcards
+        fetch('flashcards.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('flashcards-container');
+                data.forEach(card => {
+                    const cardElement = document.createElement('div');
+                    cardElement.classList.add('flashcard');
+                    cardElement.innerHTML = `
+                        <div class="question">${card.question}</div>
+                        <div class="answer">${card.answer}</div>
+                    `;
+                    container.appendChild(cardElement);
+                });
+            })
+            .catch(error => console.error('Erro ao carregar flashcards:', error));
+    </script>
 </body>
 </html>
