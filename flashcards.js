@@ -1,26 +1,22 @@
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('flashcards.json')
+fetch('flashcards.json')
     .then(response => response.json())
     .then(data => {
-      const container = document.getElementById('flashcards');
-      data.forEach(card => {
-        const cardDiv = document.createElement('div');
-        cardDiv.className = 'flashcard';
-        cardDiv.innerHTML = `<p>${card.question}</p>`;
-        cardDiv.addEventListener('click', () => {
-          if (cardDiv.classList.contains('revealed')) {
-            cardDiv.innerHTML = `<p>${card.question}</p>`;
-            cardDiv.classList.remove('revealed');
-          } else {
-            cardDiv.innerHTML = `<p>${card.answer}</p>`;
-            cardDiv.classList.add('revealed');
-          }
+        const flashcardsContainer = document.getElementById('flashcards-container');
+        data.flashcards.forEach(card => {
+            const flashcardElement = document.createElement('div');
+            flashcardElement.classList.add('flashcard');
+            flashcardElement.innerHTML = `
+                <div class="question">${card.question}</div>
+                <div class="answer">${card.answer}</div>
+            `;
+            flashcardsContainer.appendChild(flashcardElement);
+            
+            // Adiciona a funcionalidade de click para girar o card
+            flashcardElement.addEventListener('click', () => {
+                flashcardElement.classList.toggle('clicked');
+            });
         });
-        container.appendChild(cardDiv);
-      });
     })
     .catch(error => {
-      console.error('Erro ao carregar flashcards:', error);
-      document.getElementById('flashcards').innerHTML = '<p>Erro ao carregar os flashcards.</p>';
+        console.error('Erro ao carregar os flashcards:', error);
     });
-});
