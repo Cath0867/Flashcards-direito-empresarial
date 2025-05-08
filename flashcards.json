@@ -1,131 +1,142 @@
 [
-    {
-        "question": "O que é a personalidade jurídica?",
-        "answer": "É a capacidade de uma pessoa ser sujeito de direitos e obrigações."
-    },
-    {
-        "question": "Quando inicia a personalidade da pessoa física?",
-        "answer": "A personalidade da pessoa física inicia com o nascimento com vida."
-    },
-    {
-        "question": "O nascido tem direitos? Se sim, cite um tipo de direito que ele possui.",
-        "answer": "Sim, o nascido tem direitos, como o direito à vida."
-    },
-    {
-        "question": "Quando é extinta a personalidade jurídica da pessoa física?",
-        "answer": "A personalidade jurídica da pessoa física é extinta com a morte."
-    },
-    {
-        "question": "O que é a desconsideração da personalidade jurídica?",
-        "answer": "É um instituto jurídico utilizado para desconsiderar os efeitos de uma pessoa jurídica quando ela é utilizada para fins fraudulentos ou abusivos."
-    },
-    {
-        "question": "O que é a desconsideração da personalidade jurídica direta e inversa?",
-        "answer": "A desconsideração direta ocorre quando se desconsidera a personalidade jurídica da empresa para atingir os bens dos sócios. A desconsideração inversa ocorre quando se desconsidera a personalidade jurídica dos sócios para atingir os bens da empresa."
-    },
-    {
-        "question": "O que é a teoria maior na desconsideração da personalidade jurídica? Quais são seus requisitos? Cite a previsão legal.",
-        "answer": "A teoria maior considera a desconsideração da personalidade jurídica quando há abuso, fraude ou desvio de finalidade. Os requisitos são a violação da função social da empresa ou a confusão patrimonial. A previsão legal está no artigo 50 do Código Civil Brasileiro."
-    },
-    {
-        "question": "Mudar o objeto da sociedade é considerado desvio de personalidade?",
-        "answer": "Sim, mudar o objeto social para fins diferentes dos previstos no contrato social pode ser considerado desvio de personalidade."
-    },
-    {
-        "question": "A desconsideração da personalidade jurídica também está dentro da teoria de consumo. Estamos diante da teoria maior ou menor da desconsideração?",
-        "answer": "Estamos diante da teoria maior da desconsideração da personalidade jurídica, conforme previsão no Código Civil."
-    },
-    {
-        "question": "Na teoria menor, qual o requisito para ocorrer desconsideração da personalidade jurídica? Cite previsão legal.",
-        "answer": "Na teoria menor, o requisito é a utilização da pessoa jurídica para fraudar a lei ou prejudicar terceiros. A previsão legal está no artigo 50 do Código Civil."
-    },
-    {
-        "question": "Na lei de crimes ambientais, a teoria é menor ou maior da desconsideração da personalidade jurídica?",
-        "answer": "Na lei de crimes ambientais, é adotada a teoria menor da desconsideração da personalidade jurídica."
-    },
-    {
-        "question": "A desconsideração da personalidade jurídica ocorre judicialmente ou extrajudicialmente? Cite previsão legal.",
-        "answer": "A desconsideração da personalidade jurídica ocorre judicialmente, conforme previsto no artigo 50 do Código Civil."
-    },
-    {
-        "question": "Quem pode requerer a desconsideração da personalidade jurídica? Cite previsão legal.",
-        "answer": "A desconsideração pode ser requerida pelo Ministério Público, pelo credor ou por qualquer pessoa que tenha interesse, conforme artigo 50 do Código Civil."
-    },
-    {
-        "question": "Quem pode ser o alvo da desconsideração da personalidade jurídica? Cite previsão legal.",
-        "answer": "O alvo pode ser os sócios ou administradores da pessoa jurídica, conforme artigo 50 do Código Civil."
-    },
-    {
-        "question": "Cite dois exemplos de fonte do direito empresarial.",
-        "answer": "A Lei das Sociedades por Ações (Lei 6.404/76) e o Código Civil Brasileiro (Lei 10.406/02)."
-    },
-    {
-        "question": "Quais são os ramos do direito?",
-        "answer": "Os ramos do direito incluem Direito Civil, Direito Penal, Direito Administrativo, Direito Empresarial, entre outros."
-    },
-    {
-        "question": "O que é o princípio de liberdade de associação?",
-        "answer": "É o princípio que garante o direito de constituir e integrar associações livremente."
-    },
-    {
-        "question": "O que é o princípio da função social da empresa?",
-        "answer": "O princípio da função social da empresa diz que a empresa deve cumprir uma função que beneficie a sociedade, além do lucro."
-    },
-    {
-        "question": "Quem é um empresário? Cite previsão legal.",
-        "answer": "É aquele que exerce profissionalmente atividade econômica organizada para a produção ou circulação de bens ou serviços. A previsão legal está no artigo 966 do Código Civil."
-    },
-    {
-        "question": "Explique o conceito de sociedades empresariais.",
-        "answer": "São aquelas entidades que têm como objetivo a exploração de atividade econômica com o fim de obter lucro."
-    },
-    {
-        "question": "Cite um elemento que compõe a empresa.",
-        "answer": "Um dos elementos que compõe a empresa é o capital social."
-    },
-    {
-        "question": "Quem é o preposto? Cite uma função dele.",
-        "answer": "O preposto é o representante da empresa em juízo ou em atividades externas. Sua função é representar a empresa em negociações e processos judiciais."
-    },
-    {
-        "question": "O que é direito?",
-        "answer": "Direito é o conjunto de normas e princípios que regulam a convivência social, garantindo direitos e deveres."
-    },
-    {
-        "question": "Quem são os incapazes de exercer pessoalmente os atos da vida civil?",
-        "answer": "São os menores de 18 anos, os que têm deficiência mental e os que não possuem discernimento."
-    },
-    {
-        "question": "O que é o princípio de liberdade de iniciativa?",
-        "answer": "É o princípio que garante a liberdade de exercer atividades econômicas, sem intervenção do Estado, salvo em situações previstas em lei."
-    },
-    {
-        "question": "O que é o princípio de liberdade de concorrência?",
-        "answer": "É o princípio que assegura o direito das empresas competirem entre si no mercado sem restrições arbitrárias."
-    },
-    {
-        "question": "O que é o princípio da inerência do risco?",
-        "answer": "É o princípio que estabelece que o empresário assume os riscos da atividade econômica que realiza."
-    },
-    {
-        "question": "O que é o estabelecimento empresarial? Cite previsão legal.",
-        "answer": "É o conjunto de bens organizados para o exercício da atividade empresarial. A previsão legal está no artigo 1.142 do Código Civil."
-    },
-    {
-        "question": "O que é a análise SWOT?",
-        "answer": "A análise SWOT é uma ferramenta estratégica usada para avaliar os pontos fortes, fracos, oportunidades e ameaças de uma organização."
-    },
-    {
-        "question": "Quais são os elementos da análise SWOT?",
-        "answer": "Os elementos da análise SWOT são: Forças, Fraquezas, Oportunidades e Ameaças."
-    },
-    {
-        "question": "O que é a análise PESTEL?",
-        "answer": "A análise PESTEL é uma ferramenta usada para analisar os fatores políticos, econômicos, sociais, tecnológicos, ambientais e legais que podem afetar uma organização."
-    },
-    {
-        "question": "Quais são os elementos da análise PESTEL?",
-        "answer": "Os elementos da análise PESTEL são: Político, Econômico, Social, Tecnológico, Ambiental e Legal."
-    }
+  {
+    "pergunta": "O que é a personalidade jurídica?",
+    "resposta": "É a capacidade de ser sujeito de direitos e obrigações na ordem civil."
+  },
+  {
+    "pergunta": "Quando se inicia a personalidade da pessoa física?",
+    "resposta": "Com o nascimento com vida, conforme o Código Civil."
+  },
+  {
+    "pergunta": "Quando se inicia a personalidade da pessoa jurídica?",
+    "resposta": "Com o registro dos atos constitutivos no órgão competente."
+  },
+  {
+    "pergunta": "O nascituro tem direitos?",
+    "resposta": "Sim, como o direito à vida e à herança."
+  },
+  {
+    "pergunta": "Quando é extinta a personalidade jurídica da pessoa física?",
+    "resposta": "Com a morte."
+  },
+  {
+    "pergunta": "O que é a desconsideração da personalidade jurídica?",
+    "resposta": "É o afastamento da personalidade jurídica para alcançar bens dos sócios em caso de abuso de direito."
+  },
+  {
+    "pergunta": "O que é a desconsideração direta e inversa da personalidade jurídica?",
+    "resposta": "Direta atinge o sócio; inversa atinge a empresa por dívidas do sócio."
+  },
+  {
+    "pergunta": "O que é a teoria maior da desconsideração?",
+    "resposta": "Exige abuso da personalidade e confusão patrimonial. Prevista no art. 50 do Código Civil."
+  },
+  {
+    "pergunta": "Mudar o objeto da sociedade é desvio de personalidade?",
+    "resposta": "Sim, pode caracterizar desvio de finalidade conforme art. 50 do CC."
+  },
+  {
+    "pergunta": "A desconsideração também existe no direito do consumidor?",
+    "resposta": "Sim, com base na teoria menor, conforme art. 28 do CDC."
+  },
+  {
+    "pergunta": "Qual requisito da teoria menor?",
+    "resposta": "Basta o prejuízo ao consumidor para autorizar a desconsideração."
+  },
+  {
+    "pergunta": "Na lei de crimes ambientais, qual teoria é adotada?",
+    "resposta": "Teoria menor."
+  },
+  {
+    "pergunta": "A desconsideração pode ser feita extrajudicialmente?",
+    "resposta": "Não, deve ser feita judicialmente com contraditório e ampla defesa."
+  },
+  {
+    "pergunta": "Quem pode requerer a desconsideração?",
+    "resposta": "Qualquer parte interessada. Ex: credores ou Ministério Público."
+  },
+  {
+    "pergunta": "Quem pode ser o alvo da desconsideração?",
+    "resposta": "Sócios, administradores ou a própria empresa (na inversa)."
+  },
+  {
+    "pergunta": "Cite dois exemplos de fonte do direito empresarial.",
+    "resposta": "Lei e costumes empresariais."
+  },
+  {
+    "pergunta": "Quais são os ramos do direito?",
+    "resposta": "Público, privado e social."
+  },
+  {
+    "pergunta": "O que é o princípio de liberdade de associação?",
+    "resposta": "É o direito de se associar livremente para fins lícitos."
+  },
+  {
+    "pergunta": "O que é a função social da empresa?",
+    "resposta": "Atender interesses econômicos e sociais da coletividade."
+  },
+  {
+    "pergunta": "Quem é um empresário?",
+    "resposta": "Quem exerce profissionalmente atividade econômica organizada. Art. 966 CC."
+  },
+  {
+    "pergunta": "O que são sociedades empresariais?",
+    "resposta": "Sociedades que exercem atividade econômica com fins lucrativos."
+  },
+  {
+    "pergunta": "Cite um elemento que compõe a empresa.",
+    "resposta": "Estabelecimento empresarial (conjunto de bens organizados)."
+  },
+  {
+    "pergunta": "Quem é o preposto?",
+    "resposta": "Pessoa autorizada a agir em nome do empresário. Ex: gerente."
+  },
+  {
+    "pergunta": "O que é direito?",
+    "resposta": "Conjunto de normas que regulam a vida em sociedade."
+  },
+  {
+    "pergunta": "Quem são os incapazes de exercer pessoalmente atos da vida civil?",
+    "resposta": "Menores de 16 anos, ébrios habituais, entre outros (art. 3º CC)."
+  },
+  {
+    "pergunta": "O que é o princípio da liberdade de iniciativa?",
+    "resposta": "Direito de iniciar atividades econômicas privadas."
+  },
+  {
+    "pergunta": "O que é o princípio da liberdade de concorrência?",
+    "resposta": "Direito de competir de forma justa no mercado."
+  },
+  {
+    "pergunta": "O que é o princípio da inerência do risco?",
+    "resposta": "Riscos do negócio são assumidos pelo empresário."
+  },
+  {
+    "pergunta": "O que é estabelecimento empresarial?",
+    "resposta": "Conjunto de bens usados para exercício da empresa. Art. 1142 CC."
+  },
+  {
+    "pergunta": "O que é a análise SWOT?",
+    "resposta": "Ferramenta que identifica Forças, Fraquezas, Oportunidades e Ameaças."
+  },
+  {
+    "pergunta": "O que são Forças na SWOT?",
+    "resposta": "Características internas positivas da organização."
+  },
+  {
+    "pergunta": "O que são Fraquezas na SWOT?",
+    "resposta": "Características internas negativas da organização."
+  },
+  {
+    "pergunta": "O que são Oportunidades na SWOT?",
+    "resposta": "Fatores externos que favorecem a organização."
+  },
+  {
+    "pergunta": "O que são Ameaças na SWOT?",
+    "resposta": "Fatores externos que prejudicam a organização."
+  },
+  {
+    "pergunta": "O que é a análise PESTEL?",
+    "resposta": "Avaliação de fatores Políticos, Econômicos, Sociais, Tecnológicos, Ecológicos e Legais."
+  }
 ]
-
