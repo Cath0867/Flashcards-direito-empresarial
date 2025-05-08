@@ -1,142 +1,44 @@
-[
-  {
-    "pergunta": "O que é a personalidade jurídica?",
-    "resposta": "É a aptidão genérica para adquirir direitos e contrair obrigações na ordem civil."
-  },
-  {
-    "pergunta": "Quando se inicia a personalidade da pessoa física e da jurídica?",
-    "resposta": "Pessoa física: com o nascimento com vida; Pessoa jurídica: com o registro de seus atos constitutivos."
-  },
-  {
-    "pergunta": "O nascituro tem direitos? Cite um.",
-    "resposta": "Sim. Ex: direito à herança (expectativa de direito)."
-  },
-  {
-    "pergunta": "Quando se extingue a personalidade jurídica da pessoa física?",
-    "resposta": "Com a morte ou morte presumida judicialmente."
-  },
-  {
-    "pergunta": "O que é a desconsideração da personalidade jurídica?",
-    "resposta": "É o afastamento da separação patrimonial entre pessoa jurídica e sócios para responsabilização."
-  },
-  {
-    "pergunta": "O que é a desconsideração direta e inversa da personalidade jurídica?",
-    "resposta": "Direta: atinge os bens dos sócios; Inversa: atinge os bens da empresa em razão de fraude do sócio."
-  },
-  {
-    "pergunta": "O que é a teoria maior da desconsideração?",
-    "resposta": "Exige prova de abuso de personalidade, desvio de finalidade ou confusão patrimonial. Art. 50 do CC."
-  },
-  {
-    "pergunta": "Mudar o objeto da sociedade é desvio de personalidade?",
-    "resposta": "Pode configurar desvio de finalidade, dependendo da intenção e efeitos práticos."
-  },
-  {
-    "pergunta": "No CDC aplica-se a teoria maior ou menor da desconsideração?",
-    "resposta": "Teoria menor, conforme art. 28 do CDC."
-  },
-  {
-    "pergunta": "Qual o requisito para desconsideração da personalidade jurídica na teoria menor?",
-    "resposta": "Basta o prejuízo ao consumidor."
-  },
-  {
-    "pergunta": "Na Lei de Crimes Ambientais, qual teoria da desconsideração é aplicada?",
-    "resposta": "Teoria menor, visando eficácia da responsabilidade."
-  },
-  {
-    "pergunta": "A desconsideração ocorre judicial ou extrajudicialmente?",
-    "resposta": "Judicialmente, mediante contraditório. Art. 133 do CPC."
-  },
-  {
-    "pergunta": "Quem pode requerer a desconsideração da personalidade jurídica?",
-    "resposta": "Qualquer parte prejudicada. Art. 133 do CPC."
-  },
-  {
-    "pergunta": "Quem pode ser alvo da desconsideração da personalidade jurídica?",
-    "resposta": "Os sócios, administradores ou a própria empresa (inversa)."
-  },
-  {
-    "pergunta": "Cite dois exemplos de fontes do direito empresarial.",
-    "resposta": "Lei e costumes empresariais."
-  },
-  {
-    "pergunta": "Quais são os ramos do direito?",
-    "resposta": "Público, privado e social."
-  },
-  {
-    "pergunta": "O que é o princípio da liberdade de associação?",
-    "resposta": "Direito de constituir ou participar de associações livremente."
-  },
-  {
-    "pergunta": "O que é o princípio da função social da empresa?",
-    "resposta": "A empresa deve atender interesses econômicos e sociais."
-  },
-  {
-    "pergunta": "Quem é o empresário segundo o Código Civil?",
-    "resposta": "Quem exerce profissionalmente atividade econômica organizada. Art. 966 do CC."
-  },
-  {
-    "pergunta": "Explique o conceito de sociedades empresariais.",
-    "resposta": "Reunião de pessoas com objetivo comum de exercer atividade empresarial."
-  },
-  {
-    "pergunta": "Cite um elemento que compõe a empresa.",
-    "resposta": "Estabelecimento empresarial (conjunto de bens)."
-  },
-  {
-    "pergunta": "Quem é o preposto? Cite uma função.",
-    "resposta": "Pessoa que representa o empresário. Ex: gerente."
-  },
-  {
-    "pergunta": "O que é direito?",
-    "resposta": "Conjunto de normas que regulam a convivência social."
-  },
-  {
-    "pergunta": "Quem são os incapazes para atos da vida civil?",
-    "resposta": "Menores de 16 anos, ébrios habituais, deficientes mentais, etc."
-  },
-  {
-    "pergunta": "O que é o princípio da liberdade de iniciativa?",
-    "resposta": "Direito de iniciar atividades econômicas sem intervenção indevida."
-  },
-  {
-    "pergunta": "O que é o princípio da livre concorrência?",
-    "resposta": "Direito de competir lealmente no mercado."
-  },
-  {
-    "pergunta": "O que é o princípio da inerência do risco?",
-    "resposta": "O empresário assume os riscos da atividade econômica."
-  },
-  {
-    "pergunta": "O que é estabelecimento empresarial?",
-    "resposta": "Conjunto de bens organizado para o exercício da empresa. Art. 1.142 do CC."
-  },
-  {
-    "pergunta": "O que é a análise SWOT?",
-    "resposta": "Ferramenta que avalia forças, fraquezas, oportunidades e ameaças de uma organização."
-  },
-  {
-    "pergunta": "Quais são os elementos internos da análise SWOT?",
-    "resposta": "Forças e fraquezas."
-  },
-  {
-    "pergunta": "Quais são os elementos externos da análise SWOT?",
-    "resposta": "Oportunidades e ameaças."
-  },
-  {
-    "pergunta": "O que representa a letra S da SWOT?",
-    "resposta": "Strengths (Forças)."
-  },
-  {
-    "pergunta": "O que representa a letra W da SWOT?",
-    "resposta": "Weaknesses (Fraquezas)."
-  },
-  {
-    "pergunta": "O que é a análise PESTEL?",
-    "resposta": "Ferramenta que analisa fatores externos: Políticos, Econômicos, Sociais, Tecnológicos, Ecológicos e Legais."
-  },
-  {
-    "pergunta": "Para que serve a análise PESTEL?",
-    "resposta": "Para identificar influências macroambientais sobre a organização."
-  }
-]
+{
+  "flashcards": [
+    { "question": "O que é a personalidade jurídica?", "answer": "É a aptidão para ser titular de direitos e deveres na ordem jurídica." },
+    { "question": "Quando começa a personalidade da pessoa física?", "answer": "Começa com o nascimento com vida." },
+    { "question": "O nascido tem direitos?", "answer": "Sim, o nascido tem direitos, como o direito à herança." },
+    { "question": "Quando é extinta a personalidade jurídica da pessoa física?", "answer": "Com a morte." },
+    { "question": "O que é a desconsideração da personalidade jurídica?", "answer": "É a atuação direta sobre o patrimônio do sócio para que ele seja responsabilizado por dívidas da empresa." },
+    { "question": "O que é a desconsideração da personalidade jurídica direta?", "answer": "É quando os bens do sócio são atingidos diretamente devido ao abuso de personalidade." },
+    { "question": "O que é a desconsideração da personalidade jurídica inversa?", "answer": "É quando a personalidade da empresa é desconsiderada para atingir o patrimônio do sócio." },
+    { "question": "Quais são os requisitos da desconsideração da personalidade jurídica?", "answer": "Fraude, abuso da personalidade, confusão patrimonial, entre outros." },
+    { "question": "O que é o princípio da liberdade de associação?", "answer": "É o direito de formar associações sem depender de autorização prévia." },
+    { "question": "O que é o princípio da função social da empresa?", "answer": "A empresa deve exercer sua atividade de forma a atender a interesses sociais e não apenas econômicos." },
+    { "question": "Quem é um empresário?", "answer": "Aquele que exerce profissionalmente atividade econômica organizada para a produção ou circulação de bens ou serviços." },
+    { "question": "O que é o estabelecimento empresarial?", "answer": "É o conjunto de bens organizados para o exercício da atividade empresarial." },
+    { "question": "Quais são os ramos do direito?", "answer": "Direito civil, direito penal, direito administrativo, entre outros." },
+    { "question": "O que é o princípio da liberdade de concorrência?", "answer": "A liberdade de disputar o mercado de forma justa." },
+    { "question": "O que é o princípio da inerência do risco?", "answer": "Todo empresário assume os riscos de sua atividade." },
+    { "question": "O que é a teoria maior da desconsideração?", "answer": "É a teoria que permite a desconsideração da personalidade jurídica em casos de abuso ou fraude." },
+    { "question": "O que é a teoria menor da desconsideração?", "answer": "É a teoria que exige a comprovação de fraude para desconsiderar a personalidade jurídica." },
+    { "question": "Mudar o objeto da sociedade é considerado desvio de personalidade?", "answer": "Sim, se houver desvio da finalidade original da empresa." },
+    { "question": "Quem pode requerer a desconsideração da personalidade jurídica?", "answer": "Qualquer pessoa que se sinta prejudicada, incluindo credores." },
+    { "question": "Quem pode ser o alvo da desconsideração da personalidade jurídica?", "answer": "O sócio ou responsável pela fraude ou abuso da personalidade jurídica." },
+    { "question": "Cite um exemplo de fonte do direito empresarial.", "answer": "A Lei das Sociedades por Ações." },
+    { "question": "O que é a empresa individual?", "answer": "É a empresa que não exige a constituição de uma sociedade." },
+    { "question": "O que é o princípio da boa-fé?", "answer": "A obrigação de agir de forma honesta e transparente nas relações comerciais." },
+    { "question": "O que é o conceito de falência?", "answer": "Situação jurídica de uma empresa incapaz de pagar suas dívidas." },
+    { "question": "Como o direito empresarial regula a concorrência?", "answer": "Com a Lei Antitruste e normas que buscam evitar práticas prejudiciais ao mercado." },
+    { "question": "Quais as consequências da falência?", "answer": "Perda do controle da empresa, venda de ativos e pagamento das dívidas." },
+    { "question": "O que é o contrato social?", "answer": "É o documento que estabelece as regras para a constituição e funcionamento da empresa." },
+    { "question": "Quais são os tipos de sociedades empresariais?", "answer": "Sociedade limitada, sociedade anônima, sociedade simples, entre outras." },
+    { "question": "O que é a responsabilidade limitada?", "answer": "Limitação da responsabilidade dos sócios ao valor de suas quotas ou ações." },
+    { "question": "O que é a marca empresarial?", "answer": "É o nome, símbolo ou logotipo que distingue uma empresa de outra no mercado." },
+    { "question": "Quais são as etapas para abrir uma empresa?", "answer": "Registro da empresa, obtenção do CNPJ, alvará de funcionamento, entre outras." },
+    { "question": "O que é o contrato de adesão?", "answer": "É o contrato no qual uma das partes impõe as condições de forma unilateral, sem possibilidade de negociação." },
+    { "question": "O que é a responsabilidade solidária no direito empresarial?", "answer": "Quando todos os sócios são responsáveis de forma conjunta pelas dívidas da empresa." },
+    { "question": "O que é a divisão do lucro no direito empresarial?", "answer": "É a forma como o lucro da empresa é distribuído entre os sócios ou acionistas." },
+    { "question": "O que é a fusão de empresas?", "answer": "É o processo pelo qual duas ou mais empresas se unem para formar uma nova." },
+    { "question": "O que é a incorporação de empresas?", "answer": "É o processo no qual uma empresa adquire outra e passa a controlá-la." },
+    { "question": "O que é a transformação de empresas?", "answer": "É quando uma empresa altera sua natureza jurídica, mas mantém sua identidade." },
+    { "question": "Qual a diferença entre sociedade limitada e sociedade anônima?", "answer": "A sociedade limitada é uma empresa de responsabilidade limitada, enquanto a sociedade anônima é formada por ações que podem ser compradas e vendidas." },
+    { "question": "O que são os direitos dos acionistas?", "answer": "São os direitos garantidos aos investidores das ações, como voto nas assembleias e participação nos lucros." },
+    { "question": "O que é o capital social?", "answer": "É o valor que os sócios ou acionistas investem na empresa para seu funcionamento." }
+  ]
+}
