@@ -1,42 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcards de Direito Empresarial</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flashcards de Direito Empresarial</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Cabeçalho com título -->
-    <header>
-        <h1>Flashcards de Direito Empresarial</h1>
-    </header>
-
-    <!-- Container para os flashcards -->
-    <div id="flashcards-container"></div>
-
-    <!-- Arquivos JavaScript -->
-    <script>
-        // Carregando os flashcards
-        fetch('flashcards.json')
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById('flashcards-container');
-                data.forEach(card => {
-                    const cardElement = document.createElement('div');
-                    cardElement.classList.add('flashcard');
-                    cardElement.innerHTML = `
-                        <div class="question">${card.question}</div>
-                        <div class="answer">${card.answer}</div>
-                    `;
-                    // Adicionando evento para mostrar a resposta ao clicar
-                    cardElement.addEventListener('click', () => {
-                        cardElement.classList.toggle('active');
-                    });
-                    container.appendChild(cardElement);
-                });
-            })
-            .catch(error => console.error('Erro ao carregar flashcards:', error));
-    </script>
+  <header>
+    <h1>Flashcards de Direito Empresarial</h1>
+  </header>
+  <main id="flashcards-container"></main>
+  <script src="flashcards.js"></script>
 </body>
 </html>
