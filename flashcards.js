@@ -26,4 +26,4 @@ fetch('flashcards.json')
             container.appendChild(flashcard);
         });
     })
-    .catch(error => console.log('Erro ao carregar os flashcards:', error));
+    .catch(error => console.log('Erro ao carregar flashcards:', error));
