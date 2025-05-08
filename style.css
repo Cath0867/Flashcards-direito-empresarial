@@ -17,17 +17,19 @@ h1 {
 }
 
 .flashcard-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; /* Espaço entre os cards */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Define o espaçamento e tamanho mínimo dos cards */
+    gap: 30px; /* Aumentando o espaço entre os cards */
+    justify-items: center; /* Garante que os cards fiquem centralizados */
+    margin-top: 20px;
+    padding: 10px;
 }
 
 .flashcard {
     background-color: #b3c7e6; /* Cor de fundo azul pastel */
     color: #fff;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -38,6 +40,7 @@ h1 {
     cursor: pointer;
     transform-style: preserve-3d;
     transition: transform 0.6s;
+    position: relative;
 }
 
 .flashcard:hover {
