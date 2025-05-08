@@ -1,22 +1,31 @@
-fetch('flashcards.json')
-    .then(response => response.json())
-    .then(data => {
-        const flashcardsContainer = document.getElementById('flashcards-container');
-        data.flashcards.forEach(card => {
-            const flashcardElement = document.createElement('div');
-            flashcardElement.classList.add('flashcard');
-            flashcardElement.innerHTML = `
-                <div class="question">${card.question}</div>
-                <div class="answer">${card.answer}</div>
-            `;
-            flashcardsContainer.appendChild(flashcardElement);
-            
-            // Adiciona a funcionalidade de click para girar o card
-            flashcardElement.addEventListener('click', () => {
-                flashcardElement.classList.toggle('clicked');
+document.addEventListener("DOMContentLoaded", function () {
+    const flashcardsContainer = document.getElementById('flashcards-container');
+
+    // Carrega o JSON com as perguntas e respostas
+    fetch('flashcards.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(card => {
+                const flashcard = document.createElement('div');
+                flashcard.classList.add('flashcard');
+
+                const question = document.createElement('div');
+                question.classList.add('question');
+                question.innerHTML = card.question;
+
+                const answer = document.createElement('div');
+                answer.classList.add('answer');
+                answer.innerHTML = card.answer;
+
+                flashcard.appendChild(question);
+                flashcard.appendChild(answer);
+
+                flashcard.addEventListener('click', () => {
+                    flashcard.classList.toggle('flipped');
+                });
+
+                flashcardsContainer.appendChild(flashcard);
             });
-        });
-    })
-    .catch(error => {
-        console.error('Erro ao carregar os flashcards:', error);
-    });
+        })
+        .catch(error => console.error('Erro ao carregar os flashcards:', error));
+});
