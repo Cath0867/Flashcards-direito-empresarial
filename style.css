@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -8,36 +9,35 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    text-align: center;
 }
 
 h1 {
     color: #333;
     margin-bottom: 30px;
     font-size: 2em;
-    text-align: center;
 }
 
 .flashcard-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Limita a 3 flashcards por linha */
-    gap: 40px; /* Aumenta o espaço entre os cards */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
     margin-top: 20px;
-    padding: 20px;
+    width: 80%; 
     justify-items: center;
-    width: 80%; /* Limita a largura total */
 }
 
 .flashcard {
-    background-color: #b3c7e6; /* Cor de fundo azul pastel */
+    background-color: #b3c7e6; 
     color: #fff;
-    width: 200px; /* Tamanho dos cards */
-    height: 200px; /* Tamanho dos cards */
+    width: 200px; 
+    height: 200px;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transform-style: preserve-3d;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .flashcard .resposta {
-    background-color: #f7a1d7; /* Cor de fundo rosa pastel */
+    background-color: #f7a1d7;
     position: absolute;
     top: 0;
     left: 0;
