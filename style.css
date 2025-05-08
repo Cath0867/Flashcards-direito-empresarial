@@ -1,49 +1,84 @@
-.flashcards-container {
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilo para os flashcards */
+#flashcards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
-}
-
-.flashcard {
-    width: 200px;
-    height: 300px;
-    margin: 10px;
-    perspective: 1000px;
-}
-
-.flashcard-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.6s;
-}
-
-.flashcard:hover .flashcard-inner {
-    transform: rotateY(180deg);
-}
-
-.flashcard-front,
-.flashcard-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    text-align: center;
+    gap: 20px;
     padding: 20px;
-    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
 }
 
-.flashcard-front {
-    background-color: #f0f0f0;
-    color: #000;
+/* Estilo individual para cada flashcard */
+.flashcard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-.flashcard-back {
-    background-color: #ff980
+/* Estilo para a pergunta e resposta */
+.question {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.answer {
+    font-size: 14px;
+    color: #555;
+    display: none; /* A resposta começa escondida */
+}
+
+/* Efeito de hover para o flashcard */
+.flashcard:hover {
+    transform: scale(1.05);
+}
+
+/* Mostrar resposta ao clicar no flashcard */
+.flashcard.active .answer {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .flashcard {
+        width: 200px;
+        height: 200px;
+    }
+}
