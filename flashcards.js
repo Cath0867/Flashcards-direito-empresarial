@@ -35,7 +35,7 @@ const flashcards = [
 const flashcardsContainer = document.getElementById('flashcards-container');
 
 // Função para criar os flashcards
-flashcards.forEach((flashcard, index) => {
+flashcards.forEach((flashcard) => {
     const flashcardElement = document.createElement('div');
     flashcardElement.classList.add('flashcard');
     
