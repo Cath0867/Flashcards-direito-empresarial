@@ -1,17 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.flashcard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Limita a 3 flashcards por linha */
+    gap: 30px; /* Aumenta o espaço entre os cards */
+    margin-top: 20px;
+    padding: 20px;
+    justify-items: center;
+    width: 90%; /* Garante que os cards não ultrapassem a largura */
+}
+
 .flashcard {
-    background-color: #b3c7e6; 
+    background-color: #b3c7e6; /* Cor de fundo azul pastel */
     color: #fff;
-    width: 180px;
-    height: 180px;
+    width: 180px; /* Diminuí o tamanho */
+    height: 180px; /* Diminuí o tamanho */
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 1em; 
+    font-size: 1em; /* Ajustei o tamanho da fonte */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transform-style: preserve-3d;
     transition: transform 0.6s;
     position: relative;
+}
+
+.flashcard:hover {
+    transform: rotateY(180deg);
+}
+
+.flashcard .resposta {
+    background-color: #f7a1d7; /* Cor de fundo rosa pastel */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    backface-visibility: hidden;
+    font-size: 1.1em;
+}
+
+.flashcard .pergunta {
+    backface-visibility: hidden;
 }
