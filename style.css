@@ -1,70 +1,56 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
     text-align: center;
+    padding: 20px;
 }
 
 h1 {
     color: #333;
-    margin-bottom: 30px;
     font-size: 2em;
 }
 
-.flashcard-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 30px; 
+#flashcards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 20px;
-    width: 80%; 
-    justify-items: center;
 }
 
 .flashcard {
-    background-color: #b3c7e6; 
-    color: #fff;
-    width: 200px; 
-    height: 200px;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    background-color: #a0d8ef;
     border-radius: 8px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    font-size: 1.1em;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transform-style: preserve-3d;
-    transition: transform 0.6s;
-    position: relative;
+    transition: transform 0.3s;
 }
 
-.flashcard:hover {
-    transform: rotateY(180deg);
+.flashcard.flipped {
+    background-color: #f4a1c0;
 }
 
-.flashcard .resposta {
-    background-color: #f7a1d7;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #333;
-    backface-visibility: hidden;
-    font-size: 1.1em;
+.question, .answer {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: none;
 }
 
-.flashcard .pergunta {
-    backface-visibility: hidden;
+.flashcard .question {
+    display: block;
+}
+
+.flashcard.flipped .question {
+    display: none;
+}
+
+.flashcard.flipped .answer {
+    display: block;
 }
