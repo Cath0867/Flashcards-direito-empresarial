@@ -17,12 +17,12 @@ h1 {
 }
 
 .flashcard-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Define o espaçamento e tamanho mínimo dos cards */
-    gap: 30px; /* Aumentando o espaço entre os cards */
-    justify-items: center; /* Garante que os cards fiquem centralizados */
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards se ajustem automaticamente para novas linhas */
+    justify-content: space-around; /* Garante que os cards fiquem distribuídos igualmente */
+    gap: 40px; /* Aumenta o espaço entre os cards */
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .flashcard {
@@ -66,3 +66,4 @@ h1 {
 .flashcard .pergunta {
     backface-visibility: hidden;
 }
+
