@@ -1,56 +1,74 @@
+/* Estilo geral da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
     text-align: center;
-    padding: 20px;
 }
 
 h1 {
     color: #333;
+    margin-bottom: 30px;
     font-size: 2em;
 }
 
-#flashcards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+/* Container dos flashcards */
+.flashcard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 flashcards por linha */
+    gap: 20px; /* Espaçamento entre os flashcards */
+    width: 90%;
+    justify-items: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
+/* Estilo dos flashcards */
 .flashcard {
     width: 200px;
-    height: 250px;
-    margin: 10px;
-    background-color: #a0d8ef;
+    height: 300px;
+    background-color: #b3c7e6; /* Azul pastel */
+    color: white;
     border-radius: 8px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    font-size: 1.1em;
+    position: relative;
     cursor: pointer;
-    transition: transform 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
 }
 
-.flashcard.flipped {
-    background-color: #f4a1c0;
+/* Efeito ao passar o mouse - giro de 180 graus */
+.flashcard:hover {
+    transform: rotateY(180deg);
 }
 
-.question, .answer {
-    font-size: 1.2em;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    display: none;
+/* Resposta do flashcard */
+.flashcard .resposta {
+    background-color: #f7a1d7; /* Rosa pastel */
+    color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    font-size: 1em;
 }
 
-.flashcard .question {
-    display: block;
-}
-
-.flashcard.flipped .question {
-    display: none;
-}
-
-.flashcard.flipped .answer {
-    display: block;
+.flashcard .pergunta {
+    backface-visibility: hidden;
 }
