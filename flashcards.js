@@ -67,4 +67,12 @@ function displayFlashcards() {
             <div class="answer">${card.answer}</div>
         `;
 
-        flashcardI
+        flashcardInner.appendChild(front);
+        flashcardInner.appendChild(back);
+        flashcard.appendChild(flashcardInner);
+        container.appendChild(flashcard);
+    });
+}
+
+// Exibir os flashcards assim que a página carregar
+window.onload = displayFlashcards;
