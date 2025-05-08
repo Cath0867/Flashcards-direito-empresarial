@@ -12,10 +12,10 @@
         <h1>Flashcards de Direito Empresarial</h1>
     </header>
 
+    <!-- Container para os flashcards -->
     <div id="flashcards-container"></div>
 
     <!-- Arquivos JavaScript -->
-    <script src="flashcards.js"></script>
     <script>
         // Carregando os flashcards
         fetch('flashcards.json')
@@ -29,6 +29,10 @@
                         <div class="question">${card.question}</div>
                         <div class="answer">${card.answer}</div>
                     `;
+                    // Adicionando evento para mostrar a resposta ao clicar
+                    cardElement.addEventListener('click', () => {
+                        cardElement.classList.toggle('active');
+                    });
                     container.appendChild(cardElement);
                 });
             })
