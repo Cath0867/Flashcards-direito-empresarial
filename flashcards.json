@@ -1,21 +1,142 @@
 [
-{
-    "name": "Flashcards de Direito Empresarial",
-    "short_name": "Flashcards",
-    "description": "Aplicativo de flashcards para Direito Empresarial",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#007bff",
-    "icons": [
-        {
-            "src": "icons/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  {
+    "pergunta": "O que é a personalidade jurídica?",
+    "resposta": "É a aptidão genérica para adquirir direitos e contrair obrigações na ordem civil."
+  },
+  {
+    "pergunta": "Quando se inicia a personalidade da pessoa física e da jurídica?",
+    "resposta": "Pessoa física: com o nascimento com vida; Pessoa jurídica: com o registro de seus atos constitutivos."
+  },
+  {
+    "pergunta": "O nascituro tem direitos? Cite um.",
+    "resposta": "Sim. Ex: direito à herança (expectativa de direito)."
+  },
+  {
+    "pergunta": "Quando se extingue a personalidade jurídica da pessoa física?",
+    "resposta": "Com a morte ou morte presumida judicialmente."
+  },
+  {
+    "pergunta": "O que é a desconsideração da personalidade jurídica?",
+    "resposta": "É o afastamento da separação patrimonial entre pessoa jurídica e sócios para responsabilização."
+  },
+  {
+    "pergunta": "O que é a desconsideração direta e inversa da personalidade jurídica?",
+    "resposta": "Direta: atinge os bens dos sócios; Inversa: atinge os bens da empresa em razão de fraude do sócio."
+  },
+  {
+    "pergunta": "O que é a teoria maior da desconsideração?",
+    "resposta": "Exige prova de abuso de personalidade, desvio de finalidade ou confusão patrimonial. Art. 50 do CC."
+  },
+  {
+    "pergunta": "Mudar o objeto da sociedade é desvio de personalidade?",
+    "resposta": "Pode configurar desvio de finalidade, dependendo da intenção e efeitos práticos."
+  },
+  {
+    "pergunta": "No CDC aplica-se a teoria maior ou menor da desconsideração?",
+    "resposta": "Teoria menor, conforme art. 28 do CDC."
+  },
+  {
+    "pergunta": "Qual o requisito para desconsideração da personalidade jurídica na teoria menor?",
+    "resposta": "Basta o prejuízo ao consumidor."
+  },
+  {
+    "pergunta": "Na Lei de Crimes Ambientais, qual teoria da desconsideração é aplicada?",
+    "resposta": "Teoria menor, visando eficácia da responsabilidade."
+  },
+  {
+    "pergunta": "A desconsideração ocorre judicial ou extrajudicialmente?",
+    "resposta": "Judicialmente, mediante contraditório. Art. 133 do CPC."
+  },
+  {
+    "pergunta": "Quem pode requerer a desconsideração da personalidade jurídica?",
+    "resposta": "Qualquer parte prejudicada. Art. 133 do CPC."
+  },
+  {
+    "pergunta": "Quem pode ser alvo da desconsideração da personalidade jurídica?",
+    "resposta": "Os sócios, administradores ou a própria empresa (inversa)."
+  },
+  {
+    "pergunta": "Cite dois exemplos de fontes do direito empresarial.",
+    "resposta": "Lei e costumes empresariais."
+  },
+  {
+    "pergunta": "Quais são os ramos do direito?",
+    "resposta": "Público, privado e social."
+  },
+  {
+    "pergunta": "O que é o princípio da liberdade de associação?",
+    "resposta": "Direito de constituir ou participar de associações livremente."
+  },
+  {
+    "pergunta": "O que é o princípio da função social da empresa?",
+    "resposta": "A empresa deve atender interesses econômicos e sociais."
+  },
+  {
+    "pergunta": "Quem é o empresário segundo o Código Civil?",
+    "resposta": "Quem exerce profissionalmente atividade econômica organizada. Art. 966 do CC."
+  },
+  {
+    "pergunta": "Explique o conceito de sociedades empresariais.",
+    "resposta": "Reunião de pessoas com objetivo comum de exercer atividade empresarial."
+  },
+  {
+    "pergunta": "Cite um elemento que compõe a empresa.",
+    "resposta": "Estabelecimento empresarial (conjunto de bens)."
+  },
+  {
+    "pergunta": "Quem é o preposto? Cite uma função.",
+    "resposta": "Pessoa que representa o empresário. Ex: gerente."
+  },
+  {
+    "pergunta": "O que é direito?",
+    "resposta": "Conjunto de normas que regulam a convivência social."
+  },
+  {
+    "pergunta": "Quem são os incapazes para atos da vida civil?",
+    "resposta": "Menores de 16 anos, ébrios habituais, deficientes mentais, etc."
+  },
+  {
+    "pergunta": "O que é o princípio da liberdade de iniciativa?",
+    "resposta": "Direito de iniciar atividades econômicas sem intervenção indevida."
+  },
+  {
+    "pergunta": "O que é o princípio da livre concorrência?",
+    "resposta": "Direito de competir lealmente no mercado."
+  },
+  {
+    "pergunta": "O que é o princípio da inerência do risco?",
+    "resposta": "O empresário assume os riscos da atividade econômica."
+  },
+  {
+    "pergunta": "O que é estabelecimento empresarial?",
+    "resposta": "Conjunto de bens organizado para o exercício da empresa. Art. 1.142 do CC."
+  },
+  {
+    "pergunta": "O que é a análise SWOT?",
+    "resposta": "Ferramenta que avalia forças, fraquezas, oportunidades e ameaças de uma organização."
+  },
+  {
+    "pergunta": "Quais são os elementos internos da análise SWOT?",
+    "resposta": "Forças e fraquezas."
+  },
+  {
+    "pergunta": "Quais são os elementos externos da análise SWOT?",
+    "resposta": "Oportunidades e ameaças."
+  },
+  {
+    "pergunta": "O que representa a letra S da SWOT?",
+    "resposta": "Strengths (Forças)."
+  },
+  {
+    "pergunta": "O que representa a letra W da SWOT?",
+    "resposta": "Weaknesses (Fraquezas)."
+  },
+  {
+    "pergunta": "O que é a análise PESTEL?",
+    "resposta": "Ferramenta que analisa fatores externos: Políticos, Econômicos, Sociais, Tecnológicos, Ecológicos e Legais."
+  },
+  {
+    "pergunta": "Para que serve a análise PESTEL?",
+    "resposta": "Para identificar influências macroambientais sobre a organização."
+  }
+]
