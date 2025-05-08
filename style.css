@@ -1,56 +1,65 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    text-align: center;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 h1 {
     color: #333;
+    margin-bottom: 30px;
     font-size: 2em;
 }
 
-#flashcards-container {
+.flashcard-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    gap: 20px; /* Espaço entre os cards */
 }
 
 .flashcard {
+    background-color: #b3c7e6; /* Cor de fundo azul pastel */
+    color: #fff;
     width: 200px;
-    height: 250px;
-    margin: 10px;
-    background-color: #a0d8ef;
+    height: 200px;
     border-radius: 8px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s;
-}
-
-.flashcard.flipped {
-    background-color: #f4a1c0;
-}
-
-.question, .answer {
-    font-size: 1.2em;
-    color: #fff;
-    padding: 10px;
+    justify-content: center;
     text-align: center;
-    display: none;
+    font-size: 1.2em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
 }
 
-.flashcard .question {
-    display: block;
+.flashcard:hover {
+    transform: rotateY(180deg);
 }
 
-.flashcard.flipped .question {
-    display: none;
+.flashcard .resposta {
+    background-color: #f7a1d7; /* Cor de fundo rosa pastel */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    backface-visibility: hidden;
+    font-size: 1.1em;
 }
 
-.flashcard.flipped .answer {
-    display: block;
+.flashcard .pergunta {
+    backface-visibility: hidden;
 }
